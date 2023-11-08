@@ -3,10 +3,10 @@ import SpeedIcon from '@mui/icons-material/Speed';
 import ViewInArIcon from '@mui/icons-material/ViewInAr';
 import HelpOutlineIcon from '@mui/icons-material/HelpOutline';
 import PeopleOutlineIcon from '@mui/icons-material/PeopleOutline';
+import LogoutOutlinedIcon from '@mui/icons-material/LogoutOutlined';
 import CampaignOutlinedIcon from '@mui/icons-material/CampaignOutlined';
 import SettingsOutlinedIcon from '@mui/icons-material/SettingsOutlined';
 import LocalMallOutlinedIcon from '@mui/icons-material/LocalMallOutlined';
-
 
 const navConfig = [
 
@@ -46,6 +46,10 @@ const navConfig = [
   {
     title: 'Home8',
     icon: <SettingsOutlinedIcon style={{fill: "white"}}/>,
+  },
+  {
+    title: 'Home9',
+    icon: <LogoutOutlinedIcon style={{fill: "white"}}/>,
   },
   
 ];

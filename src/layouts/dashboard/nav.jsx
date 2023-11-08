@@ -36,13 +36,14 @@ export default function Nav({ openNav, onCloseNav }) {
   const renderMenu = (
     <Stack component="nav" spacing={0.5} >
       {navConfig.map((item) => (
-        <NavItem key={item.title} item={item} />
+        <NavItem key={item.title} item={item} sx={{mt: 20}} className='blaaaaa'/>
       ))}
     </Stack>
   );
 
   const renderContent = (
     <Scrollbar
+      className='magdy'
       sx={{
         pt: 14,
         background: 'linear-gradient(to right bottom, #af1d5a, #5b25d7)',
@@ -108,7 +109,8 @@ function NavItem({ item }) {
         textTransform: 'capitalize',
         fontWeight: 'fontWeightMedium',
         textAlign: 'center',
-        display: 'block'
+        display: 'block',
+        marginTop: 20
         /* ...(active && {
           color: 'primary.main',
           fontWeight: 'fontWeightSemiBold',
@@ -130,8 +132,7 @@ function NavItem({ item }) {
      
     </ListItemButton>
   );
-}
-
-NavItem.propTypes = {
+}NavItem.propTypes = {
   item: PropTypes.object,
 };
+

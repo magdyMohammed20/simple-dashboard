@@ -1,2 +1,14 @@
 /* scrollbar */
 @import 'simplebar-react/dist/simplebar.min.css';
+
+.simplebar-wrapper{
+    margin-top: 0 !important;
+}
+
+nav a:last-child{
+    margin-top: 7em !important;
+}
+
+.customTableHead th {
+    background-color: #F9FAFB;
+  }

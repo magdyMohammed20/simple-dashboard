@@ -16,7 +16,9 @@ export const grey = {
   800: '#212B36',
   900: '#161C24',
 };
-
+export const su = {
+  100: '#5BE49B',
+}
 export const primary = {
   lighter: '#D0ECFE',
   light: '#73BAFB',
@@ -108,6 +110,7 @@ export function palette() {
     text: {
       primary: grey[800],
       secondary: grey[600],
+      success: su[100],
       disabled: grey[500],
     },
     background: {
