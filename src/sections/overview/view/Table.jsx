@@ -39,10 +39,6 @@ const CustomTableHead = styled(TableHead)`
   background-color: transparent; /* Set the background to transparent */
 `;
 
-/* const rowsData = [
-  { id: 1, domain: 'example.com', price: 10, status: 'Active', createdAt: '2023-01-01', action: 'Edit' },
-  { id: 2, domain: 'sample.com', price: 15, status: 'Inactive', createdAt: '2023-02-01', action: 'Edit' },
-]; */
 
 async function fetchData() {
   const response = await fetch('http://localhost:3000/domains_show');
@@ -58,7 +54,6 @@ function CustomTable() {
   const [rows, setRows] = useState([]);
   const isAllSelected = selectedRows.length === rows.length;
 
-  // Get Request
   const { isLoading, data, error } = useQuery('get-supers', fetchData);
 
   useEffect(() => {

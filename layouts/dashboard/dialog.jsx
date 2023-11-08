@@ -6,6 +6,7 @@ import { Typography } from '@mui/material';
 import DialogTitle from '@mui/material/DialogTitle';
 import DialogContent from '@mui/material/DialogContent';
 import LanguageIcon from '@mui/icons-material/Language';
+
 import OutlinedCard from './card';
 import BuyDomainForm from './buyDomainForm';
 
@@ -25,7 +26,7 @@ export default function CreateDialog({ open , toggleDialog}) {
       </DialogTitle>
 
       <Typography sx={{px: 3 , width: '64%' , color: '#b7b7b7' , fontWeight: 400}} variant='subtitle1'>
-      This information is required in order to reach you in case of problems with your registration
+      This information is required in order to reach you in case of problems with your<br/> registration
       </Typography>
         <DialogContent sx={{px: 5}}>
         <Grid container spacing={2}>

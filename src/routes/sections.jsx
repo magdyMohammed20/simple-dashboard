@@ -4,9 +4,7 @@ import { Outlet, Navigate, useRoutes } from 'react-router-dom';
 import DashboardLayout from 'src/layouts/dashboard';
 
 export const IndexPage = lazy(() => import('src/pages/app'));
-export const ProductsPage = lazy(() => import('src/pages/products'));
 
-// ----------------------------------------------------------------------
 
 export default function Router() {
   const routes = useRoutes([
@@ -20,12 +18,9 @@ export default function Router() {
       ),
       children: [
         { element: <IndexPage />, index: true },
-        { path: 'products', element: <ProductsPage /> },
        
       ],
     },
-
-
     {
       path: '*',
       element: <Navigate to="/404" replace />,

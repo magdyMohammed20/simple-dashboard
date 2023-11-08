@@ -1,6 +1,6 @@
 {
-  "name": "@minimal/material-kit-react",
-  "author": "minimals.cc",
+  "name": "Dashboard",
+  "author": "Dashboard",
   "licence": "MIT",
   "version": "1.8.0",
   "private": false,
@@ -60,5 +60,6 @@
     "prettier": "^3.0.3",
     "vite": "^4.4.11",
     "vite-plugin-checker": "^0.6.2"
-  },"frozen-lockfile": true
+  },
+  "frozen-lockfile": true
 }

@@ -13,6 +13,20 @@
       "phone": "01012935745",
       "country": "Egypt",
       "id": 1
+    },
+    {
+      "first_name": "dddddddddddddd",
+      "second_name": "dddddddddddddd",
+      "company": "MagdyComp",
+      "email": "magdymohammed37@yahoo.com",
+      "address_line_1": "Cairosssssssssssssssssssss",
+      "address_line_2": "Qalubiassssssssssssssssss",
+      "city": "Qalubia",
+      "state": "Qanatir",
+      "zip_code": "11311",
+      "phone": "20101293574",
+      "country": "Egypt",
+      "id": 2
     }
   ],
   "domains_show": [
@@ -21,24 +35,21 @@
       "domain": "example.com",
       "price": 10,
       "status": "1",
-      "createdAt": "2023-01-01"
-      
+      "createdAt": "1 Dec, 2023"
     },
     {
       "id": "32424",
       "domain": "example1.com",
       "price": 20,
       "status": "2",
-      "createdAt": "2023-01-01"
-      
+      "createdAt": "2 Dec, 2023"
     },
     {
       "id": "32426",
       "domain": "example.com",
       "price": 30,
       "status": "3",
-      "createdAt": "2023-01-01"
-      
+      "createdAt": "3 Dec, 2023"
     }
   ]
 }
